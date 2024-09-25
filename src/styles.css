@@ -1,0 +1,31 @@
+.buttons-edit-delete{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title-and-content > div{
+    display: flex;
+    flex-direction: column;
+}
+.edit-input,
+.edit-textarea{
+    background-color: var(--clr-brown);
+    border: none;
+    outline: none;
+    color: #fff;
+    margin: 3px 0;
+    padding: 10px 3px;
+    border-radius: 5px;
+}
+.title-and-content button,
+.post-actions button{
+    width: 50px;
+  background: var(--clr-chocolate);
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  text-transform: capitalize;
+  padding: 3px 0;
+  margin: 2px;
+}
