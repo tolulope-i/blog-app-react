@@ -31,7 +31,7 @@ function BlogForm({ addBlogPost }) {
 
         const newPost = {
             topic: blogTitle,
-            job: jobDescription,
+            jobInput: jobDescription,
             category: blogCategory,
             content: blogContent,
             author: userProfile ? userProfile.name : 'Unknown Author',
